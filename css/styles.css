@@ -47,13 +47,11 @@ a {
 }
 
 
-.hero, .section-1-container 
- {
-    margin: 0 300px;  
-}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.section-2-container, .section-3-container{
-    margin: 0 400px;
 }
 .nav-bar {
     background-color: #1F2937;
@@ -79,6 +77,9 @@ a {
     gap: 25px;
 }
 
+.section-3-container{
+    padding: 6rem 14rem 5rem 14rem;
+}
 .section-1 {
     background-color: #1F2937;
     font-size: 18px;
