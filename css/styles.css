@@ -78,10 +78,14 @@ a {
 
 .hero-container {
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     margin:30px 0;
-    gap: 25px;
+    gap: 6rem;
+    
+}
+
+.hero-container .item{
+    width: 500px;
 }
 
 .section-2 {
@@ -121,15 +125,15 @@ a {
 
 
 .section-4{
+    
+    margin: 64px 0px;
+    
+    
 
-    background-color: #3882F6;
-    margin: 64px 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 0;
-    border-radius: 4px;
-    
 }
 
 .footer{
@@ -142,10 +146,12 @@ a {
     margin: 0;
     padding: 24px;
 }
+
 .item > img{
-    width: 500px;
     border-color: #3882F6 ;
     border-radius: 12px;
+    max-width: 100%;
+    height: auto;
 }
 
 img {
@@ -163,6 +169,9 @@ img {
 .main-item {
 
     color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 1rem 12rem;
 
     display: flex;
     justify-content: space-between;
@@ -172,6 +181,7 @@ img {
 
 .main-item .item button {
     border: 2px solid white;
+    
 }
 
 .main-item .item p {
